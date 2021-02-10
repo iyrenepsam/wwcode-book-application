@@ -1,0 +1,83 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center">
+
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:hint="name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"/>
+
+
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:hint="phone number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phnum"/>
+
+
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:hint="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"/>
+
+
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:hint="username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uname"/>
+
+
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pswd"/>
+
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:baselineAligned="false"
+        android:onClick="go"
+        android:text="submit"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="back"
+        android:baselineAligned="false"
+        android:text="Go to login"/>
+
+
+</LinearLayout>

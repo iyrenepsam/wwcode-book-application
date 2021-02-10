@@ -1,0 +1,79 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:hint="BookName"
+        android:layout_margin="10dp"
+        android:id="@+id/BName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:hint="Author"
+        android:layout_margin="10dp"
+        android:id="@+id/Author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <EditText
+   android:textColorHint="@color/black"
+        android:hint="Distributor"
+        android:layout_margin="10dp"
+        android:id="@+id/BDistri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:hint="Publisher"
+        android:layout_margin="10dp"
+        android:id="@+id/publics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:hint="price"
+        android:layout_margin="10dp"
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="submitbtn"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:baselineAligned="false"
+        android:text="Submit"
+        android:textSize="30dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="registerbtn"
+        android:text="Register??"
+        android:baselineAligned="false"
+        android:textSize="30dp"
+        android:background="@drawable/button"/>
+
+    
+
+</LinearLayout>
